@@ -1,0 +1,9 @@
+item {
+  id: 1
+  name: 'headphones'
+}
+
+item {
+  id: 2
+  name: 'printed_part'
+}
