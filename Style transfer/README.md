@@ -1,1 +1,8 @@
-ghg
+# Style transfer
+В этом задании необходимо реализовать алгоритм переноса стиля.
+
+# Задание 1. Определение экстрактора признаков.
+Реализовать класс StyleAndContentExtractor, который принимает на вход имена слоев, которые мы хотим извлекать из картинки для стилевого лосса (style_layers) и для контентного (content_layers).
+
+# Задание 2. Определение лосса.
+Реализовать функцию style_content_loss(image, style_targets, content_targets), которая принимает на вход текущую картинку, вычисляет для нее признаки с помощью StyleAndContentExtractor. Затем вычисляет MSE между его выходами (features['style'], features['content']) и style_targets, content_targets соответственно.
